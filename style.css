@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+body{
+    background-color:#23233f;
+    text-align:center ;
+    /*font-family: 'Playpen Sans', monospace;*/
+    font-family: 'Nunito', sans-serif;
+    max-height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50%;
+    margin-top: 20px;
+    width:100%;
+}
+
+h1{
+    color:whitesmoke;
+    letter-spacing:2px;
+}
+
+
+.box{
+    width:100%;
+    max-width:400px;
+    background-color:transparent;
+    border:2px solid #eef;
+    padding:20px 0;
+    margin:5% auto;
+    border-radius:10px;
+    text-align:center ;
+    font-size:24px;
+    color:rgb(101, 101, 46);
+    font-weight:900;
+    letter-spacing:2px;
+}
+
+p{
+    font-size: 10px;
+    text-align:center;
+    color:rgb(136, 44, 75);
+    letter-spacing:1px;
+}
+
+p a{
+    color:rgb(53, 120, 89);
+}
+
